@@ -1,3 +1,3 @@
 ## Misc
 
-Debugging/tracing what happens at vim's startup: `vim -D20debug.txt`.
+Debugging/tracing what happens at vim's startup: `vim -V20debug.txt`.
