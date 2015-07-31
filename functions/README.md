@@ -31,7 +31,7 @@ suffix `.vim`.
     <tr><td>strlen()        </td><td>length of a string</td></tr>
     <tr><td>substitute()    </td><td>substitute a pattern match with a string</td></tr>
     <tr><td>submatch()      </td><td>get a specific match in a ":substitute"</td></tr>
-    <tr><td><a href="blob/master/functions/strpart.vim">strpart()</a>       </td><td>get part of a string</td></tr>
+    <tr><td><a href="../../../blob/master/functions/strpart.vim">strpart()</a>       </td><td>get part of a string</td></tr>
     <tr><td>expand()        </td><td>expand special keywords</td></tr>
     <tr><td>iconv()         </td><td>convert text from one encoding to another</td></tr>
     <tr><td>byteidx()       </td><td>byte index of a character in a string</td></tr>
@@ -97,7 +97,7 @@ suffix `.vim`.
     <tr><td>atan()     </td><td>arc tangent</td></tr>
 
   <tr><td colspan="2"><b>Variables</b></td></tr>
-    <tr><td><a href="blob/master/functions/type.vim">type()</a>           </td><td>type of a variable</td></tr>
+    <tr><td><a href="../../../blob/master/functions/type.vim">type()</a>           </td><td>type of a variable</td></tr>
     <tr><td>islocked()       </td><td>check if a variable is locked</td></tr>
     <tr><td>function()       </td><td>get a Funcref for a function name</td></tr>
     <tr><td>getbufvar()      </td><td>get a variable value from a specific buffer</td></tr>
