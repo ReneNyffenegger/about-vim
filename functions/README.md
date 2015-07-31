@@ -8,7 +8,7 @@ suffix `.vim`.
 <table>
 
   
-  <tr><td colspan="2"><font size="+1">String manipulation</font></td></tr>
+  <tr><td colspan="2"><b>String manipulation</b></td></tr>
 
     <tr><td>nr2char()    </td><td>get a character by its ASCII value</td></tr>
     <tr><td>char2nr()    </td><td>get ASCII value of a character</td></tr>
@@ -38,7 +38,7 @@ suffix `.vim`.
     <tr><td>repeat()        </td><td>repeat a string multiple times</td></tr>
     <tr><td>eval()          </td><td>evaluate a string expression</td></tr>
 
-  <tr><td colspan="2">List manipulation</td></tr>
+  <tr><td colspan="2"><b>List manipulation</b></td></tr>
     <tr><td>get()      </td><td>get an item without error for wrong index</td></tr>
     <tr><td>len()      </td><td>number of items in a List</td></tr>
     <tr><td>empty()    </td><td>check if List is empty</td></tr>
@@ -63,7 +63,7 @@ suffix `.vim`.
     <tr><td>count()    </td><td>count number of times a value appears in a List</td></tr>
     <tr><td>repeat()   </td><td>repeat a List multiple times</td></tr>
 
-  <tr><td colspan="2">Dictionary manipulation</td></tr>
+  <tr><td colspan="2"><b>Dictionary manipulation</b></td></tr>
     <tr><td>get()      </td><td>get an entry without an error for a wrong key</td></tr>
     <tr><td>len()      </td><td>number of entries in a Dictionary</td></tr>
     <tr><td>has_key()  </td><td>check whether a key appears in a Dictionary</td></tr>
@@ -82,7 +82,7 @@ suffix `.vim`.
     <tr><td>min()      </td><td>minimum value in a Dictionary</td></tr>
     <tr><td>count()    </td><td>count number of times a value appears</td></tr>
 
-  <tr><td colspan="2">Floating point computation</td></tr>
+  <tr><td colspan="2"><b>Floating point computation</b></td></tr>
     <tr><td>float2nr() </td><td>convert Float to Number</td></tr>
     <tr><td>abs()      </td><td>absolute value (also works for Number)</td></tr>
     <tr><td>round()    </td><td>round off</td></tr>
@@ -96,7 +96,7 @@ suffix `.vim`.
     <tr><td>cos()      </td><td>cosine</td></tr>
     <tr><td>atan()     </td><td>arc tangent</td></tr>
 
-  <tr><td colspan="2">Variables</td></tr>
+  <tr><td colspan="2"><b>Variables</b></td></tr>
     <tr><td>type()           </td><td>type of a variable</td></tr>
     <tr><td>islocked()       </td><td>check if a variable is locked</td></tr>
     <tr><td>function()       </td><td>get a Funcref for a function name</td></tr>
@@ -110,7 +110,7 @@ suffix `.vim`.
     <tr><td>settabwinvar()   </td><td>set a variable in a specific window & tab page</td></tr>
     <tr><td>garbagecollect() </td><td>possibly free memory</td></tr>
 
-  <tr><td colspan="2">Cursor and mark position</td></tr>
+  <tr><td colspan="2"><b>Cursor and mark position</b></td></tr>
     <tr><td>col()         </td><td>column number of the cursor or a mark</td></tr>
     <tr><td>virtcol()     </td><td>screen column of the cursor or a mark</td></tr>
     <tr><td>line()        </td><td>line number of the cursor or mark</td></tr>
@@ -123,7 +123,7 @@ suffix `.vim`.
     <tr><td>line2byte()   </td><td>byte count at a specific line</td></tr>
     <tr><td>diff_filler() </td><td>get the number of filler lines above a line</td></tr>
 
-  <tr><td colspan="2">Working with text in the current buffer</td></tr>
+  <tr><td colspan="2"><b>Working with text in the current buffer</b></td></tr>
     <tr><td>getline()    </td><td>get a line or list of lines from the buffer</td></tr>
     <tr><td>setline()    </td><td>replace a line in the buffer</td></tr>
     <tr><td>append()    </td><td>append line or list of lines in the buffer</td></tr>
@@ -138,7 +138,7 @@ suffix `.vim`.
     <tr><td>searchpairpos()    </td><td>find the other end of a start/skip/end</td></tr>
     <tr><td>searchdecl()    </td><td>search for the declaration of a name</td></tr>
 
-  <tr><td colspan="2">System functions and manipulation of files</td></tr>
+  <tr><td colspan="2"><b>System functions and manipulation of files</b></td></tr>
     <tr><td>glob()         </td><td>expand wildcards</td></tr>
     <tr><td>globpath()     </td><td>expand wildcards in a number of directories</td></tr>
     <tr><td>findfile()     </td><td>find a file in a list of directories</td></tr>
@@ -165,14 +165,14 @@ suffix `.vim`.
     <tr><td>readfile()     </td><td>read a file into a List of lines</td></tr>
     <tr><td>writefile()    </td><td>write a List of lines into a file</td></tr>
 
-  <tr><td colspan="2">Date and Time</td></tr>
+  <tr><td colspan="2"><b>Date and Time</b></td></tr>
     <tr><td>getftime()       </td><td>get last modification time of a file</td></tr>
     <tr><td>localtime()      </td><td>get current time in seconds</td></tr>
     <tr><td>strftime()       </td><td>convert time to a string</td></tr>
     <tr><td>reltime()        </td><td>get the current or elapsed time accurately</td></tr>
     <tr><td>reltimestr()     </td><td>convert reltime() result to a string</td></tr>
 
-  <tr><td colspan="2">Buffers, windows and the argument list</td></tr>
+  <tr><td colspan="2"><b>Buffers, windows and the argument list</b></td></tr>
     <tr><td>argc()           </td><td>number of entries in the argument list</td></tr>
     <tr><td>argidx()         </td><td>current position in the argument list</td></tr>
     <tr><td>argv()           </td><td>get one entry from the argument list</td></tr>
@@ -189,32 +189,32 @@ suffix `.vim`.
     <tr><td>winbufnr()       </td><td>get the buffer number of a specific window</td></tr>
     <tr><td>getbufline()     </td><td>get a list of lines from the specified buffer</td></tr>
 
-  <tr><td colspan="2">Command line</td></tr>
+  <tr><td colspan="2"><b>Command line</b></td></tr>
     <tr><td>getcmdline() </td><td>get the current command line</td></tr>
     <tr><td>getcmdpos()  </td><td>get position of the cursor in the command line</td></tr>
     <tr><td>setcmdpos()  </td><td>set position of the cursor in the command line</td></tr>
     <tr><td>getcmdtype() </td><td>return the current command-line type</td></tr>
 
-  <tr><td colspan="2">Quickfix and location lists</td></tr>
+  <tr><td colspan="2"><b>Quickfix and location lists</b></td></tr>
     <tr><td>getqflist()  </td><td>list of quickfix errors</td></tr>
     <tr><td>setqflist()  </td><td>modify a quickfix list</td></tr>
     <tr><td>getloclist() </td><td>list of location list items</td></tr>
     <tr><td>setloclist() </td><td>modify a location list</td></tr>
 
-  <tr><td colspan="2">Insert mode completion</td></tr>
+  <tr><td colspan="2"><b>Insert mode completion</b></td></tr>
     <tr><td>complete()       </td><td>set found matches</td></tr>
     <tr><td>complete_add()   </td><td>add to found matches</td></tr>
     <tr><td>complete_check() </td><td>check if completion should be aborted</td></tr>
     <tr><td>pumvisible()     </td><td>check if the popup menu is displayed</td></tr>
 
-  <tr><td colspan="2">Folding</td></tr>
+  <tr><td colspan="2"><b>Folding</b></td></tr>
     <tr><td>foldclosed()     </td><td>check for a closed fold at a specific line</td></tr>
     <tr><td>foldclosedend()  </td><td>like                                          foldclosed() but return the last line</td></tr>
     <tr><td>foldlevel()      </td><td>check for the fold level at a specific line</td></tr>
     <tr><td>foldtext()       </td><td>generate the line displayed for a closed fold</td></tr>
     <tr><td>foldtextresult() </td><td>get the text displayed for a closed fold</td></tr>
 
-  <tr><td colspan="2">Syntax and highlighting</td></tr>
+  <tr><td colspan="2"><b>Syntax and highlighting</b></td></tr>
     <tr><td>clearmatches() </td><td>clear all matches defined by matchadd() and the :match commands</td></tr>
     <tr><td>getmatches()   </td><td>get all matches defined by matchadd() and the :match commands</td></tr>
     <tr><td>hlexists()     </td><td>check if a highlight group exists</td></tr>
@@ -228,18 +228,18 @@ suffix `.vim`.
     <tr><td>matchdelete()  </td><td>delete a match defined by matchadd() or a :match command</td></tr>
     <tr><td>setmatches()   </td><td>restore a list of matches saved by getmatches()</td></tr>
 
-  <tr><td colspan="2">Spelling</td></tr>
+  <tr><td colspan="2"><b>Spelling</b></td></tr>
     <tr><td>spellbadword() </td><td>locate badly spelled word at or after cursor</td></tr>
     <tr><td>spellsuggest() </td><td>return suggested spelling corrections</td></tr>
     <tr><td>soundfold()    </td><td>return the sound-a-like equivalent of a word</td></tr>
 
-  <tr><td colspan="2">History</td></tr>
+  <tr><td colspan="2"><b>History</b></td></tr>
     <tr><td>histadd() </td><td>add an item to a history</td></tr>
     <tr><td>histdel() </td><td>delete an item from a history</td></tr>
     <tr><td>histget() </td><td>get an item from a history</td></tr>
     <tr><td>histnr()  </td><td>get highest index of a history list</td></tr>
 
-  <tr><td colspan="2">Interactive</td></tr>
+  <tr><td colspan="2"><b>Interactive</b></td></tr>
     <tr><td>browse()       </td><td>put up a file requester</td></tr>
     <tr><td>browsedir()    </td><td>put up a directory requester</td></tr>
     <tr><td>confirm()      </td><td>let the user make a choice</td></tr>
@@ -253,12 +253,12 @@ suffix `.vim`.
     <tr><td>inputsave()    </td><td>save and clear typeahead</td></tr>
     <tr><td>inputrestore() </td><td>restore typeahead</td></tr>
 
-  <tr><td colspan="2">GUI</td></tr>
+  <tr><td colspan="2"><b>GUI</b></td></tr>
     <tr><td>getfontname()   </td><td>get name of current font being used</td></tr>
     <tr><td>getwinposx()    </td><td>X position of the GUI Vim window</td></tr>
     <tr><td>getwinposy()    </td><td>Y position of the GUI Vim window</td></tr>
 
-  <tr><td colspan="2">Vim server</td></tr>
+  <tr><td colspan="2"><b>Vim server</b></td></tr>
     <tr><td>serverlist()        </td><td>return the list of server names</td></tr>
     <tr><td>remote_send()       </td><td>send command characters to a Vim server</td></tr>
     <tr><td>remote_expr()       </td><td>evaluate an expression in a Vim server</td></tr>
@@ -268,14 +268,14 @@ suffix `.vim`.
     <tr><td>foreground()        </td><td>move the Vim window to the foreground</td></tr>
     <tr><td>remote_foreground() </td><td>move the Vim server window to the foreground</td></tr>
 
-  <tr><td colspan="2">Window size and position</td></tr>
+  <tr><td colspan="2"><b>Window size and position</b></td></tr>
     <tr><td>winheight()   </td><td>get height of a specific window</td></tr>
     <tr><td>winwidth()    </td><td>get width of a specific window</td></tr>
     <tr><td>winrestcmd()  </td><td>return command to restore window sizes</td></tr>
     <tr><td>winsaveview() </td><td>get view of current window</td></tr>
     <tr><td>winrestview() </td><td>restore saved view of current window</td></tr>
 
-  <tr><td colspan="2">Various</td></tr>
+  <tr><td colspan="2"><b>Various</b></td></tr>
     <tr><td>mode()              </td><td>get current editing mode</td></tr>
     <tr><td>visualmode()        </td><td>last visual mode used</td></tr>
     <tr><td>hasmapto()          </td><td>check if a mapping exists</td></tr>
