@@ -1,4 +1,6 @@
-redir > regex_in_vimscript.out
+"
+"  run_.bat regular_expressions
+"
 
 fu! ContainsNumber(txt  ) " {
 
@@ -23,6 +25,8 @@ fu! CaseSensitive(txt, yes_no) " {
 
 endfu " }
 
+redir > regular_expressions.out
+
 call ContainsNumber('foo bar baz'  ) " foo bar baz does not contain a number
 call ContainsNumber('foo 42  baz'  ) " foo 42  baz does contain at least a number
 
@@ -32,3 +36,10 @@ call CaseSensitive('peter pan'  , 0) " peter pan did not match case insensitivel
 call CaseSensitive('peter pan'  , 1) " peter pan did not match case sensitively
 
 q
+
+" foo bar baz does not contain a number
+" foo 42  baz does contain at least a number
+" foo bar baz did match case insensitively
+" foo bar baz did not match case sensitively
+" peter pan did not match case insensitively
+" peter pan did not match case sensitively
