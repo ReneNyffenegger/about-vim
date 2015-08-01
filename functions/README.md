@@ -147,7 +147,7 @@ suffix `.vim`.
     <tr><td>fnamemodify()  </td><td>modify a file name</td></tr>
     <tr><td>pathshorten()  </td><td>shorten directory names in a path</td></tr>
     <tr><td>simplify()     </td><td>simplify a path without changing its meaning</td></tr>
-    <tr><td><a href="../../../blob/master/functions/executable">executable()</a>   </td><td>check if an executable program exists</td></tr>
+    <tr><td><a href="../../../blob/master/functions/executable.vim">executable()</a>   </td><td>check if an executable program exists</td></tr>
     <tr><td>filereadable() </td><td>check if a file can be read</td></tr>
     <tr><td>filewritable() </td><td>check if a file can be written to</td></tr>
     <tr><td>getfperm()     </td><td>get the permissions of a file</td></tr>
