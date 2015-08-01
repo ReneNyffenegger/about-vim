@@ -28,7 +28,7 @@ suffix `.vim`.
     <tr><td>matchlist()     </td><td>like matchstr() and also return submatches</td></tr>
     <tr><td>stridx()        </td><td>first index of a short string in a long string</td></tr>
     <tr><td>strridx()       </td><td>last index of a short string in a long string</td></tr>
-    <tr><td>strlen()        </td><td>length of a string</td></tr>
+    <tr><td><a href="../../../../blob/master/vimscript/functions/strlen.vim">strlen()</a>       </td><td>length of a string</td></tr>
     <tr><td>substitute()    </td><td>substitute a pattern match with a string</td></tr>
     <tr><td>submatch()      </td><td>get a specific match in a ":substitute"</td></tr>
     <tr><td><a href="../../../../blob/master/vimscript/functions/strpart.vim">strpart()</a>       </td><td>get part of a string</td></tr>
