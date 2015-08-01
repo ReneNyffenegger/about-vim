@@ -160,7 +160,7 @@ suffix `.vim`.
     <tr><td>mkdir()        </td><td>create a new directory</td></tr>
     <tr><td>delete()       </td><td>delete a file</td></tr>
     <tr><td>rename()       </td><td>rename a file</td></tr>
-    <tr><td><a href="../../../blob/master/functions/system.vim">system()</a>       </td><td>get the result of a shell command</td></tr>
+    <tr><td><a href="../../../../blob/master/vimscript/functions/system.vim">system()</a>       </td><td>get the result of a shell command</td></tr>
     <tr><td>hostname()     </td><td>name of the system</td></tr>
     <tr><td>readfile()     </td><td>read a file into a List of lines</td></tr>
     <tr><td>writefile()    </td><td>write a List of lines into a file</td></tr>
