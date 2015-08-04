@@ -16,8 +16,10 @@ fu! CaseSensitive(txt, yes_no) " {
  
  
    if a:yes_no
+    " Try to mach case sensitively:
       let l:success = a:txt =~# 'BAR'
    else
+    " Try to match case insensitivly:
       let l:success = a:txt =~? 'BAR'
    endif
  
