@@ -66,7 +66,7 @@ suffix `.vim`.
   <tr><td colspan="2"><b>Dictionary manipulation</b></td></tr>
     <tr><td>get()      </td><td>get an entry without an error for a wrong key</td></tr>
     <tr><td>len()      </td><td>number of entries in a Dictionary</td></tr>
-    <tr><td><a href="../../../../blob/master/vimscript/functions/has_key.vim</a>has_key()</a>  </td><td>check whether a key appears in a Dictionary</td></tr>
+    <tr><td><a href="../../../../blob/master/vimscript/functions/has_key.vim">has_key()</a>  </td><td>check whether a key appears in a Dictionary</td></tr>
     <tr><td>empty()    </td><td>check if Dictionary is empty</td></tr>
     <tr><td>remove()   </td><td>remove an entry from a Dictionary</td></tr>
     <tr><td>extend()   </td><td>add entries from one Dictionary to another</td></tr>
