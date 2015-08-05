@@ -1,4 +1,6 @@
 " ..\vimscript\run_.bat verbosefile
+" 
+" See also command «redir»
 
 redir > verbosefile.out
 
