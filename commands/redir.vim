@@ -1,4 +1,4 @@
-" ..\run_.bat redir
+" ..\vimscript\run_.bat redir
 
 redir > redir.out
 
