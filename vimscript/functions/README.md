@@ -46,7 +46,7 @@ suffix `.vim`.
     <tr><td>add()      </td><td>append an item to a List</td></tr>
     <tr><td>extend()   </td><td>append a List to a List</td></tr>
     <tr><td>remove()   </td><td>remove one or more items from a List</td></tr>
-    <tr><td>copy()     </td><td>make a shallow copy of a List</td></tr>
+    <tr><td>copy()     </td><td>make a shallow copy of a List</td><td>S.a. <a href="https://github.com/ReneNyffenegger/about-vim/blob/master/vimscript/arrays-and-hashes/arrays_by_reference_or_by_value.vim">arrays_by_reference_or_by_value.vim</a></td></tr>
     <tr><td>deepcopy() </td><td>make a full copy of a List</td></tr>
     <tr><td>filter()   </td><td>remove selected items from a List</td></tr>
     <tr><td>map()      </td><td>change each List item</td></tr>
