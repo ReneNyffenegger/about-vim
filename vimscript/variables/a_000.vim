@@ -12,10 +12,6 @@ fu ThreeArgs(one, two, three, ...)
 
 endfu
 
-fu OptionalArgs()
-
-endfu
-
 call ThreeArgs('foo', 'bar', 'baz')
 " 3
 " 0
