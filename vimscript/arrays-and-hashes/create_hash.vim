@@ -1,5 +1,7 @@
 "
 " ..\run_ create_hash
+"
+" See also -> initialize_hash.vim
 
 redir > create_hash.out
 
