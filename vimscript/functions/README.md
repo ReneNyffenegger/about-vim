@@ -52,7 +52,7 @@ suffix `.vim`.
     <tr><td>map()      </td><td>change each List item</td></tr>
     <tr><td><a href="../../../../blob/master/vimscript/functions/sort.vim">sort()</a>     </td><td>sort a List</td></tr>
     <tr><td>reverse()  </td><td>reverse the order of a List</td></tr>
-    <tr><td>split()    </td><td>split a String into a List</td></tr>
+    <tr><td><a href="../../../../blob/master/vimscript/functions/split.html">split()</a>    </td><td>split a String into a List</td></tr>
     <tr><td>join()     </td><td>join List items into a String</td></tr>
     <tr><td>range()    </td><td>return a List with a sequence of numbers</td></tr>
     <tr><td>string()   </td><td>String representation of a List</td></tr>
