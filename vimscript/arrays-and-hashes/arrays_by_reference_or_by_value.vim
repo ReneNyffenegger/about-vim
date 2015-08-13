@@ -1,5 +1,8 @@
 "
 "  ..\run_ arrays_by_reference_or_by_value
+"
+"  See also ../pass_by_reference_or_by_value.vim
+"
 
 redir > arrays_by_reference_or_by_value.out
 
