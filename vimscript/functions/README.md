@@ -168,7 +168,7 @@ suffix `.vim`.
   <tr><td colspan="2"><b>Date and Time</b></td></tr>
     <tr><td>getftime()       </td><td>get last modification time of a file</td></tr>
     <tr><td>localtime()      </td><td>get current time in seconds</td></tr>
-    <tr><td>strftime()       </td><td>convert time to a string</td></tr>
+    <tr><td><a href="../../../../blob/master/vimscript/functions/strftime.vim">strftime</a>()       </td><td>convert time to a string</td></tr>
     <tr><td>reltime()        </td><td>get the current or elapsed time accurately</td></tr>
     <tr><td>reltimestr()     </td><td>convert reltime() result to a string</td></tr>
 
