@@ -54,7 +54,7 @@ suffix `.vim`.
     <tr><td>reverse()  </td><td>reverse the order of a List</td></tr>
     <tr><td><a href="../../../../blob/master/vimscript/functions/split.vim">split()</a>    </td><td>split a String into a List</td></tr>
     <tr><td>join()     </td><td>join List items into a String</td></tr>
-    <tr><td>range()    </td><td>return a List with a sequence of numbers</td></tr>
+    <tr><td><a href="../../../../blob/master/vimscript/functions/range.vim">range()</a>    </td><td>return a List with a sequence of numbers</td></tr>
     <tr><td>string()   </td><td>String representation of a List</td></tr>
     <tr><td>call()     </td><td>call a function with List as arguments</td></tr>
     <tr><td>index()    </td><td>index of a value in a List</td></tr>
