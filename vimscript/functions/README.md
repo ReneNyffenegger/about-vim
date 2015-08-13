@@ -71,7 +71,7 @@ suffix `.vim`.
     <tr><td>remove()   </td><td>remove an entry from a Dictionary</td></tr>
     <tr><td>extend()   </td><td>add entries from one Dictionary to another</td></tr>
     <tr><td>filter()   </td><td>remove selected entries from a Dictionary</td></tr>
-    <tr><td>map()      </td><td>change each Dictionary entry</td></tr>
+    <tr><td><a href="../../../../blob/master/vimscript/functions/map.vim">map()</a>      </td><td>change each Dictionary entry</td></tr>
     <tr><td><a href="../../../../blob/master/vimscript/functions/keys.vim">keys()</a>     </td><td>get List of Dictionary keys</td></tr>
     <tr><td>values()   </td><td>get List of Dictionary values</td></tr>
     <tr><td>items()    </td><td>get List of Dictionary key-value pairs</td></tr>
