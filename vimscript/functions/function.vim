@@ -1,4 +1,6 @@
 " ..\run_ function
+"
+" see also -> call()
 
 redir > function.out
 
