@@ -14,6 +14,12 @@ else
    echo '0 is false'
 endif
 
+if 1
+   echo '1 is true'
+else
+   echo '1 is false'
+endif
+
 if ""
    echo '"" is true'
 else
@@ -26,11 +32,19 @@ else
    echo '"0" is false'
 endif
 
+if "foo"
+   echo '"foo" is true'
+else
+   echo '"foo" is false'
+endif
+
 redir END
 
 q
 
 " 4==4 is obviously true
 " 0 is false
+" 1 is true
 " "" is false
 " "0" is false
+" "foo" is false
