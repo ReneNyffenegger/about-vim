@@ -99,7 +99,7 @@ suffix `.vim`.
   <tr><td colspan="2"><b>Variables</b></td></tr>
     <tr><td><a href="../../../../blob/master/vimscript/functions/type.vim">type()</a>           </td><td>type of a variable</td></tr>
     <tr><td>islocked()       </td><td>check if a variable is locked</td></tr>
-    <tr><td>function()       </td><td>get a Funcref for a function name</td></tr>
+    <tr><td><a href="../../../../blob/master/vimscript/functions/function.vim">function</a>()       </td><td>get a Funcref for a function name</td></tr>
     <tr><td>getbufvar()      </td><td>get a variable value from a specific buffer</td></tr>
     <tr><td>setbufvar()      </td><td>set a variable in a specific buffer</td></tr>
     <tr><td>getwinvar()      </td><td>get a variable from specific window</td></tr>
