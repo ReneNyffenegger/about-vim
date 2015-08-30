@@ -35,52 +35,40 @@ suffix `.vim`.
     <tr><td>expand()        </td><td>expand special keywords</td></tr>
     <tr><td>iconv()         </td><td>convert text from one encoding to another</td></tr>
     <tr><td>byteidx()       </td><td>byte index of a character in a string</td></tr>
-    <tr><td>repeat()        </td><td>repeat a string multiple times</td></tr>
+    <tr><td>repeat()        </td><td>repeat a string (or a list) multiple times</td></tr>
     <tr><td>eval()          </td><td>evaluate a string expression</td></tr>
 
   <tr><td colspan="2"><b>List manipulation</b></td></tr>
-    <tr><td>get()      </td><td>get an item without error for wrong index</td></tr>
-    <tr><td>len()      </td><td>number of items in a List</td></tr>
-    <tr><td>empty()    </td><td>check if List is empty</td></tr>
     <tr><td>insert()   </td><td>insert an item somewhere in a List</td></tr>
     <tr><td>add()      </td><td>append an item to a List</td></tr>
-    <tr><td>extend()   </td><td>append a List to a List</td></tr>
-    <tr><td>remove()   </td><td>remove one or more items from a List</td></tr>
-    <tr><td>copy()     </td><td>make a shallow copy of a List</td><td>S.a. <a href="https://github.com/ReneNyffenegger/about-vim/blob/master/vimscript/arrays-and-hashes/arrays_by_reference_or_by_value.vim">arrays_by_reference_or_by_value.vim</a></td></tr>
-    <tr><td>deepcopy() </td><td>make a full copy of a List</td></tr>
-    <tr><td>filter()   </td><td>remove selected items from a List</td></tr>
-    <tr><td>map()      </td><td>change each List item</td></tr>
     <tr><td><a href="../../../../blob/master/vimscript/functions/sort.vim">sort()</a>     </td><td>sort a List</td></tr>
     <tr><td>reverse()  </td><td>reverse the order of a List</td></tr>
     <tr><td><a href="../../../../blob/master/vimscript/functions/split.vim">split()</a>    </td><td>split a String into a List</td></tr>
     <tr><td><a href="../../../../blob/master/vimscript/functions/join.vim">join()</a>     </td><td>join List items into a String</td></tr>
     <tr><td><a href="../../../../blob/master/vimscript/functions/range.vim">range()</a>    </td><td>return a List with a sequence of numbers</td></tr>
-    <tr><td>string()   </td><td>String representation of a List</td></tr>
-    <tr><td><a href="../../../../blob/master/vimscript/functions/call.vim">call()     </td><td>call a function with List as arguments</td></tr>
+    <tr><td><a href="../../../../blob/master/vimscript/functions/call.vim">call()     </td><td>call a function with list as arguments</td></tr>
     <tr><td>index()    </td><td>index of a value in a List</td></tr>
-    <tr><td>max()      </td><td>maximum value in a List</td></tr>
-    <tr><td>min()      </td><td>minimum value in a List</td></tr>
-    <tr><td>count()    </td><td>count number of times a value appears in a List</td></tr>
-    <tr><td>repeat()   </td><td>repeat a List multiple times</td></tr>
 
   <tr><td colspan="2"><b>Dictionary manipulation</b></td></tr>
-    <tr><td><a href="../../../../blob/master/vimscript/functions/get.vim">get()</a>      </td><td>get an entry without an error for a wrong key</td></tr>
-    <tr><td>len()      </td><td>number of entries in a Dictionary</td></tr>
     <tr><td><a href="../../../../blob/master/vimscript/functions/has_key.vim">has_key()</a>  </td><td>check whether a key appears in a Dictionary</td></tr>
-    <tr><td>empty()    </td><td>check if Dictionary is empty</td></tr>
-    <tr><td>remove()   </td><td>remove an entry from a Dictionary</td></tr>
-    <tr><td>extend()   </td><td>add entries from one Dictionary to another</td></tr>
-    <tr><td>filter()   </td><td>remove selected entries from a Dictionary</td></tr>
-    <tr><td><a href="../../../../blob/master/vimscript/functions/map.vim">map()</a>      </td><td>change each Dictionary entry</td></tr>
     <tr><td><a href="../../../../blob/master/vimscript/functions/keys.vim">keys()</a>     </td><td>get List of Dictionary keys</td></tr>
     <tr><td>values()   </td><td>get List of Dictionary values</td></tr>
     <tr><td>items()    </td><td>get List of Dictionary key-value pairs</td></tr>
-    <tr><td>copy()     </td><td>make a shallow copy of a Dictionary</td></tr>
-    <tr><td>deepcopy() </td><td>make a full copy of a Dictionary</td></tr>
-    <tr><td>string()   </td><td>String representation of a Dictionary</td></tr>
-    <tr><td>max()      </td><td>maximum value in a Dictionary</td></tr>
-    <tr><td>min()      </td><td>minimum value in a Dictionary</td></tr>
-    <tr><td>count()    </td><td>count number of times a value appears</td></tr>
+
+  <tr><td colspan="2"><b>List and dictionary manipulation</b></td></tr>
+    <tr><td>copy()     </td><td>make a shallow copy of a list or deictionary</td><td>S.a. <a href="https://github.com/ReneNyffenegger/about-vim/blob/master/vimscript/arrays-and-hashes/arrays_by_reference_or_by_value.vim">arrays_by_reference_or_by_value.vim</a>, deepcopy()</td></tr>
+    <tr><td>count()    </td><td>count number of times a value appears in a list or a dictionary</td></tr>
+    <tr><td>deepcopy() </td><td>make a full copy of a list or a dictionary</td><td>S.a. copy()</td></tr>
+    <tr><td>empty()    </td><td>check if list or dictionary is empty</td></tr>
+    <tr><td>extend()   </td><td>add entries from one list or dictionary to another</td></tr>
+    <tr><td>filter()   </td><td>remove selected entries from a list or dictionary</td></tr>
+    <tr><td><a href="../../../../blob/master/vimscript/functions/get.vim">get()</a>      </td><td>get entry of list or dictionary without an error for a wrong index or key</td></tr>
+    <tr><td>len()      </td><td>number of entries in a list or dictionary</td></tr>
+    <tr><td><a href="../../../../blob/master/vimscript/functions/map.vim">map()</a>      </td><td>change each list or dictionary entry</td></tr>
+    <tr><td>max()      </td><td>maximum value in a list or dictionary</td></tr>
+    <tr><td>min()      </td><td>minimum value in a list or dictionary</td></tr>
+    <tr><td>remove()   </td><td>remove an entry from a list or dictionary</td></tr>
+    <tr><td>string()   </td><td>String representation of a list or dictionary</td></tr>
 
   <tr><td colspan="2"><b>Floating point computation</b></td></tr>
     <tr><td>float2nr() </td><td>convert Float to Number</td></tr>
