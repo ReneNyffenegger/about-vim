@@ -30,7 +30,7 @@ suffix `.vim`.
     <tr><td>strridx()       </td><td>last index of a short string in a long string</td></tr>
     <tr><td><a href="../../../../blob/master/vimscript/functions/strlen.vim">strlen()</a>       </td><td>length of a string</td></tr>
     <tr><td><a href="../../../../blob/master/vimscript/functions/substitute.vim">substitute()</a>   </td><td>substitute a pattern match with a string</td></tr>
-    <tr><td>submatch()      </td><td>get a specific match in a ":substitute"</td></tr>
+    <tr><td><a href="../../../../blob/master/vimscript/functions/submatch.vim">submatch()      </td><td>get a specific match in a ":substitute"</td></tr>
     <tr><td><a href="../../../../blob/master/vimscript/functions/strpart.vim">strpart()</a>       </td><td>get part of a string</td></tr>
     <tr><td>expand()        </td><td>expand special keywords</td></tr>
     <tr><td>iconv()         </td><td>convert text from one encoding to another</td></tr>
