@@ -21,6 +21,13 @@ echo FuncRef_1(10, 32)
 echo FuncRef_2( 7,  6)
 " 42
 "
+" Using -> call() {
+
+let s:args = [10, 15]
+echo call(FuncRef_1, s:args)
+" 25
+
+" }
 
 " Special case: define a function and assign a funcref to a dictionary entry {
 
