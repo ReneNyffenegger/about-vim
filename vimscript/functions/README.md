@@ -22,7 +22,7 @@ suffix `.vim`.
     <tr><td>strtrans()      </td><td>translate a string to make it printable</td></tr>
     <tr><td>tolower()       </td><td>turn a string to lowercase</td></tr>
     <tr><td>toupper()       </td><td>turn a string to uppercase</td></tr>
-    <tr><td>match()         </td><td>position where a pattern matches in a string</td></tr>
+    <tr><td><a href="../../../../blob/master/vimscript/functions/match.vim">match()</a>         </td><td>position where a pattern matches in a string</td></tr>
     <tr><td>matchend()      </td><td>position where a pattern match ends in a string</td></tr>
     <tr><td>matchstr()      </td><td>match of a pattern in a string</td></tr>
     <tr><td><a href="../../../../blob/master/vimscript/functions/matchlist.vim">matchlist</a>()     </td><td>like matchstr() and also return submatches</td></tr>
