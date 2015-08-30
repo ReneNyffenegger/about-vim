@@ -31,5 +31,9 @@ echo p
 echo a
 " ['one', 'two', 'three', 'four', 'five', 'six']
 
+let b = a + ['using', 'plus']
+echo b
+" ['one', 'two', 'three', 'four', 'five', 'six', 'using', 'plus']
+
 
 q
