@@ -50,3 +50,12 @@ redir END
 call delete('normal.txt')
 
 q
+
+" one
+" mapping dd used
+" three
+" four
+" mapping dd usediText from mapping 1
+" six
+" seven
+" Text from mapping 2nine
