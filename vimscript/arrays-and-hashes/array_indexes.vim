@@ -1,6 +1,7 @@
 "
 "  ..\run_ array_indexes
 
+
 redir > array_indexes.out
 
 let a = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine']
@@ -24,5 +25,19 @@ let  all_but_last_two = a[:-3]
 echo all_but_last_two
 " ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven']
 
+" Accessing non existing indexes: {
+
+try
+  echo a[10]
+catch /E684/
+   echo "list index out of range "
+endtry
+
+" Use get() instead
+echo get(a, 10, 'does not exist')
+" does not exist
+" }
+
+redir END
 
 q
