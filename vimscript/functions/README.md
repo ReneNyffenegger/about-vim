@@ -270,7 +270,7 @@ suffix `.vim`.
     <tr><td>mapcheck()          </td><td>check if a matching mapping exists</td></tr>
     <tr><td>maparg()            </td><td>get rhs of a mapping</td></tr>
     <tr><td>exists()            </td><td>check if a variable, function, etc. exists</td></tr>
-    <tr><td>has()               </td><td>check if a feature is supported in Vim</td></tr>
+    <tr><td><a href="../../../../blob/master/vimscript/functions/has.vim">has()               </td><td>check if a feature is supported in Vim</td></tr>
     <tr><td>changenr()          </td><td>return number of most recent change</td></tr>
     <tr><td>cscope_connection() </td><td>check if a cscope connection exists</td></tr>
     <tr><td>did_filetype()      </td><td>check if a FileType autocommand was used</td></tr>
