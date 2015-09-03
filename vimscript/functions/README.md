@@ -121,7 +121,7 @@ suffix `.vim`.
     <tr><td>nextnonblank()    </td><td>find next non-blank line</td></tr>
     <tr><td>prevnonblank()    </td><td>find previous non-blank line</td></tr>
     <tr><td>search()    </td><td>find a match for a pattern</td></tr>
-    <tr><td>searchpos()    </td><td>find a match for a pattern</td></tr>
+    <tr><td><a href="../../../../blob/master/vimscript/functions/searchpos.vim">searchpos()</a>    </td><td>find a match for a pattern</td></tr>
     <tr><td>searchpair()    </td><td>find the other end of a start/skip/end</td></tr>
     <tr><td>searchpairpos()    </td><td>find the other end of a start/skip/end</td></tr>
     <tr><td>searchdecl()    </td><td>search for the declaration of a name</td></tr>
