@@ -24,5 +24,20 @@ endfor
 " 2: baz
 " 3: def
 
+
+" get to access values of variables whose name is
+" stored in another variable
+
+let g:SomeVar    = 'One'
+let g:AnotherVar = 'Two'
+
+let s:VarName = 'SomeVar'
+echo get(g:, s:VarName)
+" One
+
+let s:VarName = 'AnotherVar'
+echo get(g:, s:VarName)
+" Two
+
 redir END
 q
