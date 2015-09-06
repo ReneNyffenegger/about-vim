@@ -3,6 +3,18 @@
 
 redir > split.out
 
+" { Splitting with default pattern
+
+let s:text = "  foo   bar\t\n  baz\n"
+for word in split(s:text)
+  echo 'word = ' . word
+endfor
+" word = foo
+" word = bar
+" word = baz
+
+" }
+" { Splitting with a pattern
 let s:V = '0foo42bar13baz88'
 
 let s:A = split(s:V, '\v\d+')
@@ -14,6 +26,8 @@ endfor
 " i = bar
 " i = baz
 
+" }
+" { Splitting on newlines
 echo '--------------------------------'
 
 let s:dir_output = system('dir')
@@ -29,5 +43,7 @@ for f in s:dir
     echo 'f = ' .f
   endif
 endfor
+
+" }
 
 q
