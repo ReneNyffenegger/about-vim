@@ -27,6 +27,20 @@ endfor
 " i = baz
 
 " }
+" { Splitting with a pattern (Keeping seperator)
+let s:V = '0foo42bar13baz88'
+
+let s:A = split(s:V, '\v\d+\zs')
+
+for j in s:A
+  echo 'j = ' . j
+endfor
+" j = 0
+" j = foo42
+" j = bar13
+" j = baz88
+
+" }
 " { Splitting on newlines
 echo '--------------------------------'
 
