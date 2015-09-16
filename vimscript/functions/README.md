@@ -32,7 +32,7 @@ suffix `.vim`.
     <tr><td><a href="../../../../blob/master/vimscript/functions/substitute.vim">substitute()</a>   </td><td>substitute a pattern match with a string</td></tr>
     <tr><td><a href="../../../../blob/master/vimscript/functions/submatch.vim">submatch()      </td><td>get a specific match in a ":substitute"</td></tr>
     <tr><td><a href="../../../../blob/master/vimscript/functions/strpart.vim">strpart()</a>       </td><td>get part of a string</td></tr>
-    <tr><td>expand()        </td><td>expand special keywords</td></tr>
+    <tr><td>expand()        </td><td>expand special keywords</td><td>S.a. 'fnamemodify()`</td></tr>
     <tr><td>iconv()         </td><td>convert text from one encoding to another</td></tr>
     <tr><td>byteidx()       </td><td>byte index of a character in a string</td></tr>
     <tr><td>repeat()        </td><td>repeat a string (or a list) multiple times</td></tr>
@@ -132,7 +132,7 @@ suffix `.vim`.
     <tr><td>findfile()     </td><td>find a file in a list of directories</td></tr>
     <tr><td>finddir()      </td><td>find a directory in a list of directories</td></tr>
     <tr><td>resolve()      </td><td>find out where a shortcut points to</td></tr>
-    <tr><td><a href="../../../../blob/master/vimscript/functions/fnamemodify.vim">fnamemodify</a>()  </td><td>modify a file name</td></tr>
+    <tr><td><a href="../../../../blob/master/vimscript/functions/fnamemodify.vim">fnamemodify</a>()  </td><td>modify a file name</td><td>S.a. `expand()`</td></tr>
     <tr><td>pathshorten()  </td><td>shorten directory names in a path</td></tr>
     <tr><td>simplify()     </td><td>simplify a path without changing its meaning</td></tr>
     <tr><td><a href="../../../../blob/master/vimscript/functions/executable.vim">executable()</a>   </td><td>check if an executable program exists</td></tr>
