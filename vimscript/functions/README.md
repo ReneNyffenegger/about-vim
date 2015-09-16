@@ -132,7 +132,7 @@ suffix `.vim`.
     <tr><td>findfile()     </td><td>find a file in a list of directories</td></tr>
     <tr><td>finddir()      </td><td>find a directory in a list of directories</td></tr>
     <tr><td>resolve()      </td><td>find out where a shortcut points to</td></tr>
-    <tr><td>fnamemodify()  </td><td>modify a file name</td></tr>
+    <tr><td><a href="../../../../blob/master/vimscript/functions/fnamemodify.vim">fnamemodify</a>()  </td><td>modify a file name</td></tr>
     <tr><td>pathshorten()  </td><td>shorten directory names in a path</td></tr>
     <tr><td>simplify()     </td><td>simplify a path without changing its meaning</td></tr>
     <tr><td><a href="../../../../blob/master/vimscript/functions/executable.vim">executable()</a>   </td><td>check if an executable program exists</td></tr>
