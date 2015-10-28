@@ -17,6 +17,9 @@ echo fnamemodify(s:path, ':r')
 echo fnamemodify(s:path, ':t:r')
 " baz
 
+echo fnamemodify('/no/drive/letter.txt', ':p')
+" C:\no\drive\letter.txt
+
 redir END
 
 q
