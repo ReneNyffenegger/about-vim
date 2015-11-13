@@ -197,7 +197,7 @@ suffix `.vim`.
 
   <tr><td colspan="2"><b>Folding</b></td></tr>
     <tr><td>foldclosed()     </td><td>check for a closed fold at a specific line</td></tr>
-    <tr><td>foldclosedend()  </td><td>like                                          foldclosed() but return the last line</td></tr>
+    <tr><td>foldclosedend()  </td><td>like foldclosed() but return the last line</td></tr>
     <tr><td>foldlevel()      </td><td>check for the fold level at a specific line</td></tr>
     <tr><td>foldtext()       </td><td>generate the line displayed for a closed fold</td></tr>
     <tr><td>foldtextresult() </td><td>get the text displayed for a closed fold</td></tr>
