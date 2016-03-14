@@ -1,0 +1,11 @@
+# vi: filetype=sh
+#
+# See run_.bat
+#
+
+VIM_CMF_FILE=$1
+
+gvim -i NONE -u NORC -U NONE --noplugin -nNesS $VIM_CMF_FILE.vim
+
+cat $VIM_CMF_FILE.out
+rm  $VIM_CMF_FILE.out
