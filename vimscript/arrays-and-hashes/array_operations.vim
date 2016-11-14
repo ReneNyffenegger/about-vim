@@ -35,5 +35,7 @@ let b = a + ['using', 'plus']
 echo b
 " ['one', 'two', 'three', 'four', 'five', 'six', 'using', 'plus']
 
+echo 'len(b): ' . len(b)
+" len(b): 8
 
 q
