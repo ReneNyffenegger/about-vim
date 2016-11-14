@@ -5,6 +5,15 @@ redir > array_operations.out
 
 let a = ['one', 'two', 'three']
 
+echo a[0]
+" one
+
+echo a[1:]
+" ['two', 'three']
+
+echo a[:1]
+" ['one', 'two']
+
 call add(a, 'four')
 echo a
 " ['one', 'two', 'three', 'four']
