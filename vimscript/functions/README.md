@@ -14,7 +14,7 @@ suffix `.vim`.
     <tr><td>char2nr()    </td><td>get ASCII value of a character</td></tr>
     <tr><td>str2nr()    </td><td>convert a string to a Number</td></tr>
     <tr><td>str2float()    </td><td>convert a string to a Float</td></tr>
-    <tr><td>printf()    </td><td>format a string according to % items</td></tr>
+    <tr><td><a href="../../../../blob/master/vimscript/functions/printf.vim">printf()</a></td><td>format a string according to % items</td></tr>
     <tr><td>escape()    </td><td>escape characters in a string with a '\'</td></tr>
     <tr><td>shellescape()    </td><td>escape a string for use with a shell command</td></tr>
     <tr><td>fnameescape()    </td><td>escape a file name for use with a Vim command</td></tr>
