@@ -119,7 +119,7 @@ suffix `.vim`.
     <tr><td>cindent()    </td><td>indent according to C indenting</td></tr>
     <tr><td>lispindent()    </td><td>indent according to Lisp indenting</td></tr>
     <tr><td>nextnonblank()    </td><td>find next non-blank line</td></tr>
-    <tr><td>prevnonblank()    </td><td>find previous non-blank line</td></tr>
+    <tr><td><a href="../../../../blob/master/vimscript/functions/prevnonblank.vim">prevnonblank()</a>    </td><td>find previous non-blank line</td></tr>
     <tr><td>search()    </td><td>find a match for a pattern</td></tr>
     <tr><td><a href="../../../../blob/master/vimscript/functions/searchpos.vim">searchpos()</a>    </td><td>find a match for a pattern</td></tr>
     <tr><td>searchpair()    </td><td>find the other end of a start/skip/end</td></tr>
