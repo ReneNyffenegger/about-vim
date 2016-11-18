@@ -115,7 +115,7 @@ suffix `.vim`.
     <tr><td>getline()    </td><td>get a line or list of lines from the buffer</td></tr>
     <tr><td>setline()    </td><td>replace a line in the buffer</td></tr>
     <tr><td>append()    </td><td>append line or list of lines in the buffer</td></tr>
-    <tr><td>indent()    </td><td>indent of a specific line</td></tr>
+    <tr><td><a href="../../../../blob/master/vimscript/functions/indent.vim">indent()</a>    </td><td>indent of a specific line</td></tr>
     <tr><td>cindent()    </td><td>indent according to C indenting</td></tr>
     <tr><td>lispindent()    </td><td>indent according to Lisp indenting</td></tr>
     <tr><td>nextnonblank()    </td><td>find next non-blank line</td></tr>
