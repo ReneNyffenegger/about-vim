@@ -1,3 +1,7 @@
+"
+" ..\run_ type
+"
+
 redir > type.out
 
 echo type(42)
@@ -18,5 +22,8 @@ echo type({1: 'one', 2: 'two', 3: 'three'})
 echo type(42.42)
 " 5
 
-q
+echo type(42 == 42)
+" 0
 
+redir END
+q
