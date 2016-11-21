@@ -128,7 +128,7 @@ suffix `.vim`.
 
   <tr><td colspan="2"><b>System functions and manipulation of files</b></td></tr>
     <tr><td>glob()         </td><td>expand wildcards</td></tr>
-    <tr><td>globpath()     </td><td>expand wildcards in a number of directories</td></tr>
+    <tr><td><a href="../../../../blob/master/vimscript/functions/globpath.vim">globpath</a>()  </td><td>Perform <code>glob<code> on directories</td><td></td></tr>
     <tr><td>findfile()     </td><td>find a file in a list of directories</td></tr>
     <tr><td>finddir()      </td><td>find a directory in a list of directories</td></tr>
     <tr><td>resolve()      </td><td>find out where a shortcut points to</td></tr>
