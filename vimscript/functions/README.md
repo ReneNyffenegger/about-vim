@@ -59,7 +59,7 @@ suffix `.vim`.
     <tr><td>copy()     </td><td>make a shallow copy of a list or deictionary</td><td>S.a. <a href="https://github.com/ReneNyffenegger/about-vim/blob/master/vimscript/arrays-and-hashes/arrays_by_reference_or_by_value.vim">arrays_by_reference_or_by_value.vim</a>, deepcopy()</td></tr>
     <tr><td>count()    </td><td>count number of times a value appears in a list or a dictionary</td></tr>
     <tr><td>deepcopy() </td><td>make a full copy of a list or a dictionary</td><td>S.a. copy()</td></tr>
-    <tr><td>empty()    </td><td>check if list or dictionary is empty</td></tr>
+    <tr><td><a href="../../../../blob/master/vimscript/functions/empty.vim">empty()</a>      </td><td>check if list or dictionary is empty</td></tr>
     <tr><td>extend()   </td><td>add entries from one list or dictionary to another</td></tr>
     <tr><td>filter()   </td><td>remove selected entries from a list or dictionary</td></tr>
     <tr><td><a href="../../../../blob/master/vimscript/functions/get.vim">get()</a>      </td><td>get entry of list or dictionary without an error for a wrong index or key</td></tr>
