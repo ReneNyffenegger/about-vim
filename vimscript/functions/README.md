@@ -68,7 +68,7 @@ suffix `.vim`.
     <tr><td>max()      </td><td>maximum value in a list or dictionary</td></tr>
     <tr><td>min()      </td><td>minimum value in a list or dictionary</td></tr>
     <tr><td>remove()   </td><td>remove an entry from a list or dictionary</td></tr>
-    <tr><td>string()   </td><td>String representation of a list or dictionary</td></tr>
+    <tr><td><a href="../../../../blob/master/vimscript/functions/string.vim">string()</a></td><td>String representation of a list, a dictionary or a funcref</td></tr>
 
   <tr><td colspan="2"><b>Floating point computation</b></td></tr>
     <tr><td>float2nr() </td><td>convert Float to Number</td></tr>
