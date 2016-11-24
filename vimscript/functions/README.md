@@ -46,8 +46,8 @@ suffix `.vim`.
     <tr><td><a href="../../../../blob/master/vimscript/functions/split.vim">split()</a>    </td><td>split a String into a List</td></tr>
     <tr><td><a href="../../../../blob/master/vimscript/functions/join.vim">join()</a>     </td><td>join List items into a String</td></tr>
     <tr><td><a href="../../../../blob/master/vimscript/functions/range.vim">range()</a>    </td><td>return a List with a sequence of numbers</td></tr>
-    <tr><td><a href="../../../../blob/master/vimscript/functions/call.vim">call()     </td><td>call a function with list as arguments</td></tr>
-    <tr><td>index()    </td><td>index of a value in a List</td></tr>
+    <tr><td><a href="../../../../blob/master/vimscript/functions/call.vim">call()</a>     </td><td>call a function with list as arguments</td></tr>
+    <tr><td><a href="../../../../blob/master/vimscript/functions/idnex.vim">index</a></td><td>index of a value in a List</td></tr>
 
   <tr><td colspan="2"><b>Dictionary manipulation</b></td></tr>
     <tr><td><a href="../../../../blob/master/vimscript/functions/has_key.vim">has_key()</a>  </td><td>check whether a key appears in a Dictionary</td></tr>
