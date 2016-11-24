@@ -61,10 +61,10 @@ suffix `.vim`.
     <tr><td>deepcopy() </td><td>make a full copy of a list or a dictionary</td><td>S.a. copy()</td></tr>
     <tr><td><a href="../../../../blob/master/vimscript/functions/empty.vim">empty()</a>      </td><td>check if list or dictionary is empty</td></tr>
     <tr><td>extend()   </td><td>add entries from one list or dictionary to another</td></tr>
-    <tr><td><a href="../../../../blob/master/vimscript/functions/filter.vim">filter()</a>      </td><td>remove selected entries from a list or dictionary</td></tr>
+    <tr><td><a href="../../../../blob/master/vimscript/functions/filter.vim">filter()</a>      </td><td>remove selected entries from a list or dictionary</td><td>Compare with <code>map()</code></tr>
     <tr><td><a href="../../../../blob/master/vimscript/functions/get.vim">get()</a>      </td><td>get entry of list or dictionary without an error for a wrong index or key</td></tr>
     <tr><td>len()      </td><td>number of entries in a list or dictionary</td></tr>
-    <tr><td><a href="../../../../blob/master/vimscript/functions/map.vim">map()</a>      </td><td>change each list or dictionary entry</td></tr>
+    <tr><td><a href="../../../../blob/master/vimscript/functions/map.vim">map()</a>      </td><td>change each list or dictionary entry</td><td>Compare with <code>filter()</code></tr>
     <tr><td>max()      </td><td>maximum value in a list or dictionary</td></tr>
     <tr><td>min()      </td><td>minimum value in a list or dictionary</td></tr>
     <tr><td>remove()   </td><td>remove an entry from a list or dictionary</td></tr>
