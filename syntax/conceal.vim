@@ -16,6 +16,7 @@ syntax    region tq84Conceal start=/<c>/ end=/<\/c>/ conceal
 highlight        tq84Conceal guibg=#eeeeee guifg=#226633
 
 for i in range(0,3)
+  "   TODO: see also option concealcursor
   set conceallevel=0
   redraw
   sleep 1
