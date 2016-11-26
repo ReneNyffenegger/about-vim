@@ -5,7 +5,8 @@
 
 VIM_CMF_FILE=$1
 
-gvim -i NONE -u NORC -U NONE --noplugin -nNesS $VIM_CMF_FILE.vim
+# 2016-11-26: --cmd "set go=M
+gvim -i NONE -u NORC -U NONE --cmd "set go=M" --noplugin -nNesS $VIM_CMF_FILE.vim
 
 cat $VIM_CMF_FILE.out
 rm  $VIM_CMF_FILE.out
