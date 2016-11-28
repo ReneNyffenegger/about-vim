@@ -1,5 +1,0 @@
-
-Fehler beim Ausführen von "C:\about\vim\vimscript\variables\v_shell_error.vim":
-Zeile    5:
-E492: Kein Editorbefehl: system('command-with-error')
-0
