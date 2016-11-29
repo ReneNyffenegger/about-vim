@@ -32,7 +32,7 @@ suffix `.vim`.
     <tr><td><a href="../../../../blob/master/vimscript/functions/substitute.vim">substitute()</a>   </td><td>substitute a pattern match with a string</td></tr>
     <tr><td><a href="../../../../blob/master/vimscript/functions/submatch.vim">submatch()      </td><td>get a specific match in a ":substitute"</td></tr>
     <tr><td><a href="../../../../blob/master/vimscript/functions/strpart.vim">strpart()</a>       </td><td>get part of a string</td></tr>
-    <tr><td>expand()        </td><td>expand special keywords</td><td>S.a. <code>fnamemodify()</code></td></tr>
+    <tr><td><a href="../../../../blob/master/vimscript/functions/expand.vim">expand()</a>       </td><td>expand special keywords.</td><td>S.a. <code>fnamemodify()</code></td></tr>
     <tr><td>iconv()         </td><td>convert text from one encoding to another</td></tr>
     <tr><td>byteidx()       </td><td>byte index of a character in a string</td></tr>
     <tr><td>repeat()        </td><td>repeat a string (or a list) multiple times</td></tr>
