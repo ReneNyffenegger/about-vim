@@ -40,7 +40,7 @@ suffix `.vim`.
 
   <tr><td colspan="2"><b>List manipulation</b></td></tr>
     <tr><td>insert()   </td><td>insert an item somewhere in a List</td></tr>
-    <tr><td>add()      </td><td>append an item to a List</td></tr>
+    <tr><td>add()      </td><td>append an item to a List</td><td>S.a. <code>extend()</code></tr>
     <tr><td><a href="../../../../blob/master/vimscript/functions/sort.vim">sort()</a>     </td><td>sort a List</td></tr>
     <tr><td>reverse()  </td><td>reverse the order of a List</td></tr>
     <tr><td><a href="../../../../blob/master/vimscript/functions/split.vim">split()</a>    </td><td>split a String into a List</td></tr>
@@ -60,7 +60,7 @@ suffix `.vim`.
     <tr><td>count()    </td><td>count number of times a value appears in a list or a dictionary</td></tr>
     <tr><td>deepcopy() </td><td>make a full copy of a list or a dictionary</td><td>S.a. copy()</td></tr>
     <tr><td><a href="../../../../blob/master/vimscript/functions/empty.vim">empty()</a>      </td><td>check if list or dictionary is empty</td></tr>
-    <tr><td>extend()   </td><td>add entries from one list or dictionary to another</td></tr>
+    <tr><td><a href="../../../../blob/master/vimscript/functions/extend.vim">extend()</a>   </td><td>add entries from one list or dictionary to another</td><td>S.a. <code>add</code></tr>
     <tr><td><a href="../../../../blob/master/vimscript/functions/filter.vim">filter()</a>      </td><td>remove selected entries from a list or dictionary</td><td>Compare with <code>map()</code></tr>
     <tr><td><a href="../../../../blob/master/vimscript/functions/get.vim">get()</a>      </td><td>get entry of list or dictionary without an error for a wrong index or key</td></tr>
     <tr><td>len()      </td><td>number of entries in a list or dictionary</td></tr>
