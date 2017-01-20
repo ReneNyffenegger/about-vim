@@ -2,39 +2,63 @@
 
 redir > matchlist.out
 
-fu! M(txt) " {
+fu! M(pattern, txt) " {
 
- let l:ret = matchlist(a:txt, '\vfoo(\d+)bar(\d+)baz')
+ let l:ml = matchlist(a:txt, a:pattern)
 
- echo a:txt
- echo '  len (ret): ' . len(l:ret)
+ echo '  len (l:ml): ' . len(l:ml)
 
- for i in range(0, len(l:ret)-1)
-   echo '    ' . i . ': ' . ret[i]
+ for i in range(0, len(l:ml)-1)
+   echo '    ' . i . ': ' . l:ml[i]
  endfor
 
  echo ''
 
+
 endfu " }
 
-call M ('foobarbaz')
-call M ('foo42bar17baz')
+call M ('\vfoo(\d+)bar(\d+)baz', 'foobarbaz')
+"   len (l:ml): 0
 
-redir END
-q
-
-" foobarbaz
-"   len (ret): 0
-" 
-" foo42bar17baz
-"   len (ret): 10
+call M ('\vfoo(\d+)bar(\d+)baz', 'foo42bar17baz')
+"   len (l:ml): 10
 "     0: foo42bar17baz
 "     1: 42
 "     2: 17
-"     3:
-"     4:
-"     5:
-"     6:
-"     7:
-"     8:
-"     9:
+"     3: 
+"     4: 
+"     5: 
+"     6: 
+"     7: 
+"     8: 
+"     9: 
+"
+
+call M('\v(\d+)?(\S+)', '20abc')
+"   len (l:ml): 10
+"     0: 20abc
+"     1: 20
+"     2: abc
+"     3: 
+"     4: 
+"     5: 
+"     6: 
+"     7: 
+"     8: 
+"     9: 
+
+call M('\v(\d+)?(\S+)', 'def20')
+"  len (l:ml): 10
+"    0: def20
+"    1: 
+"    2: def20
+"    3: 
+"    4: 
+"    5: 
+"    6: 
+"    7: 
+"    8: 
+"    9: 
+
+redir END
+q
