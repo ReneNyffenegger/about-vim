@@ -11,13 +11,6 @@ echo '>' . s:matched . '<'
 
 fu RegexpForPos(pos, regexp)
 
-" return '\v%<30c' . '...' . '\v%>30c'
-
-"  return
-"  \ '\v'                 .
-"  \ '%>'   . a:pos . 'c' .
-"  \         a:regexp    
-
    return
    \ '\v'                .
    \ '%<'  . (a:pos + 1) . 'v' .
