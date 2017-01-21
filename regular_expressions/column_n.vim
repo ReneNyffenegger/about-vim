@@ -20,9 +20,9 @@ fu RegexpForPos(pos, regexp)
 
    return
    \ '\v'                .
-   \ '%<'  . (a:pos + 1) . 'c' .
+   \ '%<'  . (a:pos + 1) . 'v' .
    \         a:regexp    .     
-   \ '%>'  .  a:pos      . 'c'
+   \ '%>'  .  a:pos      . 'v'
 
 endfu
                       1         2         3         4         5         6         7  
@@ -36,6 +36,7 @@ for s:pos in range(42, 55)
     echo s:pos . '  >' . s:matched . '<'
 
 endfor
+" 42  ><
 " 43  ># yyy-19-zzz<
 " 44  ># yyy-19-zzz<
 " 45  ># yyy-19-zzz<
