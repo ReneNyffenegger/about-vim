@@ -24,5 +24,16 @@ call map(s:xyz, string(s:funcRef) . '(v:val)')
 
 echo s:xyz
 
+"
+"  Using lambda expressions
+"
+if has('lambda')
+   call map(s:xyz, {pos,val -> pos . ': ' . tolower(val)})
+   echo s:xyz
+ " ['0: foo-foo', '1: bar-bar', '2: baz-baz']
+else
+   echo 'feature lambda not available'
+endif
+
 redir END
 q
