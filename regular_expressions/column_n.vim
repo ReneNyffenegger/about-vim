@@ -14,7 +14,7 @@ fu RegexpForPos(pos, regexp)
    return
    \ '\v'                .
    \ '%<'  . (a:pos + 1) . 'v' .
-   \         a:regexp    .     
+   \          a:regexp   .     
    \ '%>'  .  a:pos      . 'v'
 
 endfu
