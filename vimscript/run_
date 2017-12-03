@@ -6,7 +6,16 @@
 VIM_CMF_FILE=$1
 
 # 2016-11-26: --cmd "set go=M
-gvim -i NONE -u NORC -U NONE --cmd "set go=M" --noplugin -nNesS $VIM_CMF_FILE.vim
+#
+# --cmd:  Command to be execute before processing any vimrc file
+#
+# -S   :  The file to be sourced
+# -n   :  No swap file
+# -N   :  Not compatible mode
+# -e   :  Start in ex mode
+# -s   :  silent mode
+#
+gvim -i NONE -u NORC -U NONE --cmd "set go=M" --noplugin -n -N -e -S $VIM_CMF_FILE.vim -s
 
 cat $VIM_CMF_FILE.out
 rm  $VIM_CMF_FILE.out
