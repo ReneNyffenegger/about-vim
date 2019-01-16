@@ -7,18 +7,21 @@ if 4==4
 else
    echo 'obviously not printed'
 endif
+" 4==4 is obviously true
 
 if 0
    echo '0 is true'
 else
    echo '0 is false'
 endif
+" 0 is false
 
 if 1
    echo '1 is true'
 else
    echo '1 is false'
 endif
+" 1 is true
 
 " Boolean expressions with a string:
 " The string is first converted into a number.
@@ -31,47 +34,43 @@ if ""
 else
    echo '"" is false'
 endif
+" "" is false
 
 if "0"
    echo '"0" is true'
 else
    echo '"0" is false'
 endif
+" "0" is false
 
 if "1"
    echo '"1" is true'
 else
    echo '"1" is false'
 endif
+" "1" is true
 
 if "foo"
    echo '"foo" is true'
 else
    echo '"foo" is false'
 endif
+" "foo" is false
 
 if "000foo"
    echo '"000foo" is true'
 else
    echo '"000foo" is false'
 endif
+" "000foo" is false
 
 if "009foo"
    echo '"009foo" is true'
 else
    echo '"009foo" is false'
 endif
+" "009foo" is true
 
 redir END
 
 q
-
-" 4==4 is obviously true
-" 0 is false
-" 1 is true
-" "" is false
-" "0" is false
-" "1" is true
-" "foo" is false
-" "000foo" is false
-" "009foo" is true
